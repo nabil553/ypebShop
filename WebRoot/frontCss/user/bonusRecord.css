@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*universal*/
+.clearfix{clear:both}
+*{font-family:"微软雅黑"}
+
+/*CSS eliminate*/
+body{margin:0}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-weight:normal}
+a{text-decoration:none}
+img{display:block}
+ul,li{margin:0;padding:0;list-style:none;font-weight:normal}
+input{margin:0;border:none}
+p{margin:0}
+.category{border-bottom:1px solid #808080;width:560px}
+.category h1,.category h2,.category h3,.category h4{float:left;font-size:14px;color:#808080;line-height:40px;width:80px;text-align:center}
+.category h1,.category h2,.category h3{margin-right:23px}
+.category h2{width:240px}
+
+.item{border-bottom:1px solid #d9d9d9;width:560px}
+.item h1,.item h2,.item h3,.item h4{float:left;font-size:14px;color:#4d4d4d;line-height:40px;width:80px;text-align:center;}
+.item h4{color:#ec1d23}
+.item h1,.item h2,.item h3{margin-right:23px}
+.item h2{width:240px}

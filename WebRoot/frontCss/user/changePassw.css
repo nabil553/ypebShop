@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearfix{clear:both}
+*{font-family:"微软雅黑"}
+
+/*CSS eliminate*/
+body{margin:0}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-weight:normal}
+a{text-decoration:none}
+img{display:block}
+ul,li{margin:0;padding:0;list-style:none;font-weight:normal}
+input{margin:0;border:none}
+p{margin:0}
+
+.change_sign_up{float:left;margin-right:30px}
+.headline{font-size:14px;color:#808080;margin-bottom:30px}
+.box p,input,.box p,imput{float:left}
+.box{padding-left:20px;margin:20px 0}
+.box p{font-size:14px;color:#4D4D4D;margin-right:10px;line-height:30px}
+.box .old_password{margin-right:24px}
+.box input{border:1px solid #d9d9d9}
+.box input{width:200px;height:30px;padding-left:10px}
+.confirm{background-color:#ec1d23;color:#fff;height:32px;width:72px;border-radius:3px;margin-left:250px}

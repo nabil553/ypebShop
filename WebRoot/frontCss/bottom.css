@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*universal*/
+.clearfix{clear:both}
+*{font-family:"微软雅黑"}
+
+/*CSS eliminate*/
+body{margin:0}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-weight:normal}
+a{text-decoration:none}
+img{display:block}
+ul,li{margin:0;padding:0;list-style:none;font-weight:normal}
+input{margin:0;border:none}
+p{margin:0}
+.footer_box a{color:#4c4c4c}
+.footer_bg{margin-top:30px;background-color: #dadada;}
+.footer_box{width: 1200px;margin: 0 auto;}
+.footer_box a:hover{ text-decoration: underline;}
+.footer_nav{width:200px;float:left;width:200px;padding-left:75px;margin-top:30px;}
+.footer_nav ul{ font-size: 16px; line-height: 45px; color: #4c4c4c;width:150px;}
+.footer_nav li{ font-size: 12px; line-height: 12px; margin-bottom: 10px;}
+.copyright{font-size: 12px; color:#808080;text-align: center; line-height: 12px; margin-top: 90px; padding-bottom: 42px;}

@@ -1,0 +1,21 @@
+#MyEclipse Hibernate Properties
+#Tue Feb 07 01:14:00 CST 2017
+genBasicCompId=true
+sessionFactoryName=com.ypeb.model.hibernate.HibernateSessionFactory
+profile=
+daoSFId=
+jndiPath=
+detectM2M=true
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=true
+reSettingsFile=/YPEB/hibernate.reveng.xml
+configFile=/YPEB/src/hibernate.cfg.xml
+createConfigFile=true
+baseDaoClass=com.ypeb.model.trade.pointsSale.BaseHibernateDAO

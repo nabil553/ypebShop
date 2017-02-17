@@ -1,0 +1,25 @@
+
+.address{height:80px; width:360px;}
+.userName{height:30px;}
+.telephone{height:30px;}
+html{color:#000;background:#FFF}
+body, div, dl, dt, dd, form, input, th, td {margin:0;padding:0}
+body {color:#666;font:13px/1.5 'Microsoft Yahei', Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;position:relative;min-width:600px;-webkit-font-smoothing:antialiased}
+a{color:#666;text-decoration:none;-webkit-transition:color 500 linear}
+a:hover {text-decoration:none;color:#e25353;cursor:pointer;transition:color .1s linear}
+.i-p-c-i-btn {display:block;width:50px;height:45px;line-height:45px;text-align:center;color:#fff;background:#E24F1A;font-size:18px;font-weight:700;border:0;cursor:pointer;}
+.reginpblu-yqm tr{ width:163px; height:35px; border-bottom:1px solid #e6e6e6;}
+.reginpblu-yqm td{ width:163px; height:35px;  font-size: 13px;  text-align: center;}
+.i-p-c-i-btn:hover{
+transition:all .2s ease-in-out;color:#fff;background:#E24F1A;}
+.confirm-info-list {width:665px;margin:0 auto;padding-top:10px;}
+.confirm-info-list-dl {border:1px solid #e6e6e6;margin-bottom:10px;}
+.confirm-info-list-dl dd {padding:7px}
+.tc1-title {border-bottom:1px solid #e6e6e6;background:#f9f9f9;}
+.tc1-title .icon-title-1 {margin:10px 10px 0;}
+.tc1-title h2 {font-size:18px;color:rgb(226, 79, 26);font-weight:bolder;padding:10px;font-family:'microsoft yahei'}
+
+.divyes{ background-color:#F30; margin-left:35%; width:200px; height:40px; border-radius:4px;}
+.spanyes{color:#FFF;font-size:18px; font-weight:600; margin-left:9%; position:absolute; top:93%; }
+
+

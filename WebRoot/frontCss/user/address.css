@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+	/*我的地址*/
+.ra{ border: 1px solid #d9d9d9;line-height:15px;padding: 5px 10px; position: relative;margin-bottom:20px;float:left; width:400px;}
+.ra_img img{ float: right;margin:10px}
+.ra_img img:hover{transform: translateY(-1px);}
+.ra_img{position:absolute;top: 4px;right: 4px}
+.ra_add_btn{width:128px;height:48px;color:#ec1d23;text-align: center;font-size:14px;border: 1px solid #d9d9d9;line-height: 48px;margin-right:30px;margin-top:14px;}
+.ra p{color:#4d4d4d;font-size:14px}
+.ra p span{color:#4d4d4d;font-size:15px}
+/*编辑收货地址*/
+.chenge_ra_box,.add_ra_box{position:relative;}
+.change_ra{margin-bottom: 16px;}
+.change_ra p{font-size:14px;color: #4c4c4c ;float: left;line-height: 36px; margin-right: 10px;}
+.change_ra input{width:254px; height: 34px;border: 1px solid #d9d9d9;background: #fff; float: left;padding-left: 10px;margin-top:20px;}
+.input-1{width:378px;padding:10px;height:48px; resize: none; margin-left: 30px;border: 1px solid #d9d9d9; font-size: 14px; margin-bottom: 56px;}
+.input-2{ width:80px;height:36px;background-color:#ec1d23 ;border-radius:2px;color: #fff;margin: 0;position: absolute;left: 385px ;bottom:0px;}
+.updatePeop{margin-left:15px;}
+.fontaddres{font-size:14px;color: #4c4c4c ;float: left;line-height: 36px; }
+

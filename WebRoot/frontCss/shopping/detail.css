@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**/
+.s_classification{width:1200px;margin:6px auto 16px auto;}
+.s_classification h1{color:#4c4c4c;font-size:14px;float:left;margin-right:6px;line-height:30px}
+.boundary{border-bottom:1px solid #d9d9d9;float:left}
+
+/*商品信息*/
+.commodity{width:1200px;margin:0 auto}
+#box{width:400px;height:500px;margin: 0 auto; background:no-repeat;overflow: hidden;}
+.commodity_s_img span img{margin-top:410px;}
+.spanbuy{font-size:14px; font-weight:500; color:#FFFFFF; margin-left:32px; position:absolute; margin-top:10px;}
+.divbuy{ border:1px solid red; width:120px; height:40px; background-color:#ec1d23;border-radius:4px; margin-top:210px; margin-left:50px;}
+.spancart{ font-size:14px; font-weight:500; color:#FFFFFF; margin-left:32px; position:absolute; margin-top:10px;}
+.divcart{ border:1px solid red; width:120px; height:40px; background-color:#ec1d23;border-radius:4px; margin-top:-42px; margin-left:230px;}
+
+/*图片*/
+.commodity_img,.commodity_information,.service{float:left}
+.commodity_s_img img{float:left;margin-right:8px}
+.commodity_img_1{margin-bottom:16px}
+
+.commodity_information{margin-left:10px}
+.commodity_name{font-size:20px;width:516px}
+.commodity_number{font-size:12px;color:#b2b2b2;margin:10px 0;}
+
+
+/*信息*/
+.purchase_box{width:476px;height:270px;background-color:#f2f2f2;padding:20px}
+.name,.number{float:left}
+.purchase_box .name{}
+.purchase_box .name h1{font-size:18px;color:#808080;line-height:50px}
+.vip_price_number{font-size:30px;color:#ec1d23;line-height:48px;margin-left:60px;text-align:right}
+.price{font-size:24px;color:#808080;line-height:48px;margin-left:60px;text-align:right}
+.integral{font-size:24px;color:#ec1d23;line-height:48px;margin-left:60px;text-align:right}
+.quantity{margin:16px 0 0 60px}
+.purchase_box .name .vip_price{color:#ec1d23}
+.quantity img,input{float:left}
+.quantity img{margin:5px}
+.quantity input{padding-right:8px;width:60px;height:20px;border:1px solid #d9d9d9;text-align:right;margin-left:20px;}
+.purchase_box .purchase,.purchase_shopping_cart{width:140px;height:40px;color:#fff;background-color:#ec1d23;border-radius:2px;margin-right:20px;clear:both}
+.purchase{margin:20px}
+.purchase_shopping_cart{margin:-60px 200px 0}
+
+/*联系客服*/
+.service{width:240px;border:1px solid #f00;margin-left:20px}
+.service h1{background-color:#ec1d23;color:#fff;font-size:18px;line-height:40px;text-align:center;margin-bottom:20px}
+.service h2{font-size:14px;padding-left:15px;line-height:24px;color:#808080}
+
+.guarantee{margin:20px 0 20px 6px}
+.guarantee img{float:left;margin:0 8px}
+
+.service .consult{margin:20px 65px}
+
+.erweima{margin:20px 58px 10px 58px}
+.service h3{font-size:12px;text-align:center;margin-bottom:30px;color:#808080}
+
+/*活动  规格参数*/
+.relative_a_detail{width:1200px;margin:30px auto}
+.activity_box{float:left;width:200px !important}
+.activity_box img{margin-bottom:20px !important}
+
+
+.commodity_detail{float:left;margin-left:40px;width:960px !important}
+.commodity_detail h1{font-size:16px;width:200px;line-height:40px;text-align:center;color:#fff;background-color:#ec1d23}
+.gray_border{width:960px}
+.gray_border img{display:inline}
+
+

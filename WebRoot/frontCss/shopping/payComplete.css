@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin:0 auto; background-color:#dfdddd;}
+
+a:hover{color:#FFFFFF;text-decoration:none;}
+a:link{color:#FFFFFF;text-decoration:none;}
+a:vistit{color:#FFFFFF;text-decoration:none;}
+
+/*支付成功*/
+
+.center{border:1px solid #d2d2d2; background-color:#f0ece6; width:1200px;margin:0 auto; height:400px; border-radius:5px; margin-top:50px;text-align:center;}
+.center span{position:relative;top:100px;font-size:40px; font-family:黑体; font-weight:800px;color:#363434;}
+.center img{position:relative;top:110px;margin-right:10px;}
+.center p{letter-spacing:2px; color:#5c5857; font-size:18px;position:relative;top:150px; font-family:楷体; font-weight:500;}
+.successdiv{background-color:#ec1d23; border-radius:4px; border:1px solid #ec1d23; width:300px; height:45px; text-align:center; position:relative;top:200px;margin:0 auto;}
+.successdiv span{color:#FFFFFF; font-size:25px; font-weight:600; font-family:宋体;position:relative;top:9px;}
+
+.addHei{height:200px;}

@@ -1,0 +1,29 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=7d4b8964c1bfc8f8f5a4ad9e4ee03106f62f21b5
+eclipse.preferences.version=1
+<<<<<<< HEAD
+<<<<<<< HEAD
+encoding//WebRoot/frontPage/shopping/address.jsp=UTF-8
+encoding//WebRoot/frontPage/shopping/detail.jsp=UTF-8
+encoding//WebRoot/frontPage/shopping/pay.jsp=UTF-8
+encoding//WebRoot/frontPage/shopping/shoppingCar.jsp=UTF-8
+=======
+
+encoding//WebRoot/frontPage/shopping/shoppingCart.jsp=UTF-8
+
+encoding//src/com/ypeb/util/Page.java=UTF-8
+
+>>>>>>> 5a597b79c8e3edac4cda83e7a33c7c689901b4c5
+=======
+encoding//WebRoot/backPage/shopping/category/add.jsp=UTF-8
+encoding//WebRoot/frontPage/user/cash.jsp=UTF-8
+encoding//WebRoot/frontPage/user/personalCenter/address.jsp=UTF-8
+encoding//WebRoot/frontPage/user/personalCenter/changePassword.jsp=UTF-8
+encoding//WebRoot/frontPage/user/personalCenter/myInfo.jsp=UTF-8
+encoding//WebRoot/frontPage/user/personalCenter/myRegister.jsp=UTF-8
+encoding//WebRoot/frontPage/user/personalCenter/order.jsp=UTF-8
+encoding//WebRoot/frontPage/user/personalInformation.jsp=UTF-8
+encoding//src/com/ypeb/util/Page.java=UTF-8
+>>>>>>> 3299adf096613fd1725e88358ee80c3f7216472e
+encoding/<project>=UTF-8

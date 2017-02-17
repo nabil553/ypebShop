@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*universal*/
+.clearfix{clear:both}
+*{font-family:"微软雅黑"}
+
+/*CSS eliminate*/
+body{margin:0}
+h1,h2,h3{margin:0;padding:0;font-weight:normal}
+a{text-decoration:none}
+ul,li{margin:0;padding:0;list-style:none;font-weight:normal}
+
+/*top*/
+.header_top{width:1200px;margin:0 auto}
+.welcome{font-size:12px;line-height:34px;float:left;margin-right:16px}
+.sign_up,.sign_in{float:left}
+.info{float:right}
+.sign_up,.sign_in,.info{font-size:12px;color:#4c4c4c;line-height:34px}
+.sign_up{color:#ec1d23;margin-right:16px}
+
+.top_middle{width:100%;height:1px;background-color:#d9d9d9}
+
+/*miaale*/
+.header_middle{width:1200px;margin:0 auto}
+.logo{margin:24px 100px 24px 0}
+
+.search_box{width:596px;height:38px;border:2px solid #ec1d23;padding-left:10px;outline:none;margin:30px 0}
+.search_button{width:80px;height:38px;border:2px solid #ec1d23;background-color:#ec1d23;font-size:16px;color:#fff;margin:30px 0}
+
+.shopping_cart_text{font-size:14px;color:#ec1d23}
+.shopping_cart_box{height:34px;border:1px solid #d9d9d9}
+.shopping_cart,.shopping_cart_text{float:left;}
+.shopping_cart{margin:4px 8px}
+.shopping_cart_text{line-height:34px}
+
+.logo,.search_box,.search_button{float:left}
+.shopping_cart_box{float:right;margin-top:31px}
+
+/*buttom*/
+
+.header_bottom_bg{background-color:#ec1d23; z-index:100;}
+
+.header_bottom{width:1200px;margin:0 auto;position:relative}
+.header_bottom h2{color:#FFFFFF; position:absolute; margin-top:3px; margin-left:35px;}
+.home,.deal{font-size:14px;color:#fff;line-height:40px;float:left;}
+.home{margin:0 40px 0 240px}
+
+/*classification*/
+
+.classification_box{width:200px;height:450px;padding:0px;background-color:#d3181d;position:absolute; margin-top:40px;color:#fff;font-size:16px;z-index:101}
+
+.classification{font-size:18px;line-height:40px;text-align:center;}
+.classification_box li .libacka:link{font-size:16px; font-weight:500; color:#FFFFFF;padding:20px;margin-bottom:15px;text-decoration:none;}
+.classification_box li .libacka:visited{color:#FFFFFF;font-weight:500;text-decoration:none;}
+.classification_box li .libacka:hover{color:#000000;font-weight:500;text-decoration:none;}
+
+.classification_box li .libackb:link{font-size:16px; font-weight:500; color:#4f0505;padding:20px;margin-bottom:15px;text-decoration:none;}
+.classification_box li .libackb:visited{color:#4f0505;font-weight:500;text-decoration:none;}
+.classification_box li .libackb:hover{color:#000000;font-weight:500;text-decoration:none;}
+.classification_box li{margin:0px; padding:4px;}
+.prosul li{line-height:50px;height:30px;_overflow:hidden;border-bottom:1px #bb2d1e dashed;margin-right:0px;padding-left:5px}
+.prosmore{padding:0px 0 15px 15px;position:absolute;z-index:999;left:200px;top:-2px;background-color:#FFFFFF;border:2px #d03322 solid;border-left:0 none;
+width:1000px;height:435px}
+.hide{display:none}
+.prosmore img{margin-left:70%; height:95%; position:absolute; top:10px;margin_top:-80%;}
+
+/*banner*/
+.banner_box{position:relative;height:450px;overflow:hidden; z-index:100;}
+.banner{width:12000px;position:absolute;margin-left:50%;left:-1390px}
+.banner img{position:absolute}
+
+.arrow{width:1000px;position:absolute;margin-top:180px;margin-left:50%;left:-400px}
+.arrow_left{float:left;margin-left:10px;}
+.arrow_right{float:right;margin-right:10px;}
+
+.ctrl_span{width:122px;height:24px;border-radius:15px;background-color:rgba(230,230,230,0.3);position:absolute;margin-left:50%;bottom:6px;left:39px}
+.ctrl_span span{width:18px;height:18px;border-radius:9px;background-color:rgba(204,204,204,0.6);float:left;margin:3px 0px 0px 10px;}
+.ctrl_span .current{background-color:#ec1d23;-webkit-transition:background-color 0.7s;}

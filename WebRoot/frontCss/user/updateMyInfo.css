@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*修改信息*/
+.top_nav{margin-top:20px; margin-bottom:20px; font-size:15px; color:#5c5a59;}
+.userName{font-size:15px; color:#5c5a59;margin:10px;}
+.updateName{margin-left:20px;}
+.updateaddr{font-size:15px; color:#5c5a59;margin:10px;}
+.updateMycity{margin-left:95px;margin-top:-30px;}
+.yesUpdate{background-color:#ec1d23; width:110px; height:40px;border:1px solid #ec1d23;border-radius:4px;font-size:18px;color:#FFFFFF;margin-left:400px;margin-top:30px;}
+.notUpdate{font-size:15px; color:#5c5a59;margin:10px;}
+.IDCard{font-size:15px; color:#5c5a59;margin:10px;}
+.updateIDCard{margin-left:95px;margin-top:-35px;}
+

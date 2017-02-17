@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.personal_information_box{width:1000px; margin:0 auto;}
+/*左侧内容*/
+.left_box{width:200px; float: left;}
+/*面包屑路径*/
+.nav li{float:left; line-height: 33px; font-size: 12px}
+.nav img{float:left; margin: 10px  10px}
+.nav_line{width:111px; height: 1px; background: #d9d9d9}
+/*个人资料*/
+.my_message img{ float: left; padding:20px 0 3px 20px;}
+.vip_name{ float:left; font-size: 14px; line-height: 23px; padding-top: 38px;
+width: 100px; text-align: center; color: #4c4c4c}
+.p1{font-size: 12px; line-height: 32px; color: #808080; margin-left: 35px}
+.totality1{width:100px;height:8px;border-radius: 4px;background: #acdcb1; margin-left: 35px}
+.totality2{width:80px;height:8px;border-radius: 4px;background:#0ead20;}
+.my_message_line{ width:166px ;height:1px ;background:#d9d9d9  ;margin: 0 auto;margin-top:30px ;}
+/*会员中心*/
+.vip_centrality img{margin:20px 40px; float: left}
+.vip_centrality ul{ float: left; line-height: 26px; font-size:14px;color:#4d4d4d;
+padding:13px;}
+.vip_centrality li{color:#4d4d4d}
+.vip_centrality .click_ul{color:#999}
+/*右侧内容*/
+/*资产中心*/
+.right_box{float:left; margin-left: 47px}
+.asset_Center{margin-top:100px;}
+.property{width:150px; height:150px ; border-radius: 10px;
+float: left; background:#fff;box-shadow: 1.414px 1.414px 4px 0px rgba(230, 230, 230, 1) ; margin-right:30px; margin-bottom: 13px;}
+.property_bor{width:148px; height:148px; border: solid 1px #ec1d23;}
+.property h2{font-size:14px; color: #4c4c4c; line-height:50px; margin-top: 10px;text-align: center;}
+.property img{margin:0 auto;}
+.property p{line-height:52px; font-size:14px ; color:#ec1d23 ;text-align: center;}
+
+iframe{padding-top:16px}
+a:link{color:#5c5a59;text-decoration:none;}
+a:hover{color:red;text-decoration:none;}
+a:visited{color:#5c5a59;text-decoration:none;}
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ssx{margin: 10px 0;}
+.form-control{ margin:50px 0;}
+/*logo和背景*/
+.logo1{max-width:1200px;margin:0 auto;}
+.logo1 img{margin:20px 0 20px 10px;}
+.activity{width:100%;overflow:hidden;}
+.bg_img{ position: relative; left: 50%;margin-left: -1250px;}
+.bg_box{ max-width:1200px; ;position: relative; margin: 0 auto;top:-560px}
+
+/*登陆注册*/
+.login_box{width:332px; border-radius: 6px; padding: 20px; background-color: white;position: absolute; top:100px;right:40px;}
+.regsiter_box{width:332px; border-radius: 6px; padding: 20px; background-color: white;position: absolute;top:80px;right:40px; }
+.login_box h1,.regsiter_box h1{ font-size:24px; color: #4c4c4c; line-height: 24px; float: left;}
+.login_box h2 a,.wjmm,.regsiter_box h2 a{ font-size:12px; color:#999999;line-height: 36px;float: right;margin-bottom: 10px;}
+.login_box h2 a:hover{color:#999999;}
+.login_box h2 a:link{color:#999999;}
+.login_box h2 a:vistit{color:#999999;}
+.regsiter_box h2 a:hover{color:#999999;}
+.regsiter_box h2 a:link{color:#999999;}
+.regsiter_box h2 a:vistit{color:#999999;}
+
+.login1,.regsiter{margin:8px 0;}
+.login1 span,.regsiter span{float: left; color:#4c4c4c ; line-height: 36px; font-size: 14px;}
+.input0{width:261px; height:34px;border:1px solid #d9d9d9;position:absolute; left:20%;margin-top:-10px;}
+.input1,.input2,.input3,.input4{position:absolute; left:20%;}
+.input5{float:left; width:238px; height: 34px;border: 1px solid #d9d9d9; margin-left:20px; margin-top:0px; 
+background-image:url(../../img/user/suo.png); background-repeat: no-repeat; background-position:10px 6px; border-radius:3px;padding-left:40px;}
+.input6{float:left; width:238px; height: 34px;border: 1px solid #d9d9d9; margin-left:30px; margin-top:0px;
+background-image:url(../../img/user/suo.png); background-repeat: no-repeat; background-position:10px 6px; border-radius:3px;padding-left:40px;}
+.input7{float:left; width:238px; height: 34px;border: 1px solid #d9d9d9; margin-left: 20px; 
+background-image: url(../../img/user/suo.png); background-repeat: no-repeat; background-position: 10px 6px; border-radius: 3px;padding-left: 40px;}
+.regsiter input{float:left; width:254px; height: 34px;border: 1px solid #d9d9d9; margin-left: 10px;  
+border-radius: 3px;padding-left: 10px;font-size: 12px; color: #b2b2b2;}
+.regsiter .inputcolor{color:#4c4c4c;}
+.login_img{ float:right;}
+.login_btn{width:332px; margin-bottom: 10px; background-color:#ec1d23; border-radius:3px; color: wheat;font-size: 18px;text-align: center;line-height: 40px;}
+
+/*部分修改添加注册*/
+.username{color:#4c4c4c;font-size:14px;}
+.name input{float:left; width:254px; height: 34px;border: 1px solid #d9d9d9; margin-left: 10px;  border-radius: 3px;padding-left: 10px;font-size: 12px; color: #b2b2b2;}
+.mycity input{border:1px solid #CCC; width:80px;height:25px;}
+.mycity{margin-left:70px;}
+.cityaddr{color:#4c4c4c;font-size:14px;position:absolute;top:247px;}
+.login_btn{background-color:#F00;}
+.login_btn button{background-color:#F00;border:1px solid red; color:white;width:120;height:40;font-weight:500;font-size:18px;}

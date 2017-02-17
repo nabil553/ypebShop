@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+a:link{color:#FFFFFF;text-decoration:none;}
+a:hover{color:#FFFFFF;text-decoration:none;}
+a:visited{color:#FFFFFF;text-decoration:none;}
+
+.my_mes_box{line-height: 27px; font-size:14px; color: #808080;}
+.my_mes_box ul{float:left; width:90px }
+.my_mes_box ol{float:left; color: #4c4c4c;width: 180px;}
+.my_mes_box span{}
+.my{float:left;}
+.compile{line-height:36px;width: 52px;background-color:#ec1d23;color: white;text-align: center;border-radius: 2px; margin-left: 25px; margin-top: 75px;}
+

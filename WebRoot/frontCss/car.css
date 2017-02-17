@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearfix{clear:both}
+*{font-family:"微软雅黑"}
+
+/*CSS eliminate*/
+body{margin:0;}
+h1,h2,h3,h4,h5{margin:0;padding:0;font-weight:normal}
+a{text-decoration:none}
+
+.nav_box{width:1200px;margin:0 auto}
+.nav h1{font-size:14px;color:#4c4c4c;float:left;line-height:30px;margin-right:6px;margin-top:6px;}
+.nav{width:107px;border-bottom:1px solid #d9d9d9}
+.nav a{color:#4c4c4c}
+.nav a:hover{text-decoration:underline}
+
+/*购物车*/
+.shoppingcart_box{width:1200px;margin:20px auto 30px auto}
+.shoppingcart_box input,h1,h3{float:left;font-size:16px;color:#808080;text-align:center}
+.shoppingcart_box .assist_box{float:right}
+.shoppingcart_box .assist_box h2{float:left}
+.shoppingcart_box input{margin:5px 20px 0 20px}
+.shoppingcart_box h1{width:140px;}
+.shoppingcart_box h2{font-size:16px;width:97px;color:#808080;text-align:center}
+
+
+.sc_commodity{width:1200px;margin:0 auto}
+.sc_commodity .boundary{width:1200px;height:1px;background-color:#d9d9d9}
+.sc_commodity .boundary{width:1200px;height:1px;background-color:#d9d9d9}
+.sc_commodity input,img,h1{float:left}
+.sc_commodity .assist_box{float:right}
+.sc_commodity .assist_box h2,.quantity{float:right}
+.sc_commodity .check_box{margin:40px 20px 0 20px}
+.sc_commodity img{margin:10px 20px 10px 0}
+.sc_commodity h1{line-height:92px;color:#333}
+.sc_commodity h2{line-height:92px;color:#333;font-size:18px;width:100px;text-align:center; }
+.quantity input{margin-top:34px;padding-right:8px;width:30px;height:20px;border:1px solid #d9d9d9;text-align:right}
+.quantity img{margin:39px 5px 0 5px}
+
+
+/*结算*/
+.check_out_box{width:1200px;margin:30px auto 400px auto}
+.check_out_box .assist_box{float:right}
+.check_out_box h1{font-size:16px;color:#ec1d23;line-height:40px;margin-left:83%;}
+.check_out_box input{width:80px;height:40px;background-color:#ec1d23;font-size:18px;color:#fff;border-radius:4px;margin-right:20px}
+a:link{ color:#000; text-decoration:none;}
+a:visited{color:#000;text-decoration:none;}
+a:hover{color:#000;text-decoration:none;}
+.spansum{border:1x solid #000; font-size:18px; font-weight:500; margin-top:6px;color:#FFFFFF; margin-left:20px; position:absolute;}
+.divsum button{ border:1px solid #ec1d23; width:80px; height:40px; background-color:#ec1d23;border-radius:4px;margin-left:-80px;}
+.shoppingCarImg{width:72px;height:72px;}
+.addtype{position:absolute;margin-left:-90px;}
+.quantity{position:absolute;margin-left:40px;}
+
+/*删除*/
+.del a span{border:1px solid #ec1d23;padding:5px;padding-left:15px;padding-right:13px;background-color:#ec1d23;border-radius:4px;width:120px;height:80px;color:#FFFFFF;}
+.shopspan{color:#808080;font-size:17px;margin-top:10px;}
+.shop-total-amount{color:#ec1d23;font-size:17px;margin-top:10px;font-weight:600;}

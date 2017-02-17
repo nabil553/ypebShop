@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*universal*/
+.clearfix{clear:both}
+*{font-family:"微软雅黑"}
+
+/*CSS eliminate*/
+body{margin:0}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-weight:normal}
+a{text-decoration:none}
+img{display:block}
+ul,li{margin:0;padding:0;list-style:none;font-weight:normal}
+input{margin:0;border:none}
+p{margin:0}
+.leave_word_box{position:relative;height:212px}
+.leave_word_frame{width:478px;height:138px;padding:10px;border:1px solid #d9d9d9;color:#4d4d4d;resize:none}
+.send{width:60px;height:32px;background-color:#ec1d23;color:#fff;border-radius:3px;position:absolute;left:420px;top:180px}
+
+
+.reply_box{width:600px;border-bottom:1px solid #d8d8d8;margin-top:10px}
+.reply_s_box{}
+.leave_word_headline{color:#808080;font-size:14px}
+.reply_s_box .reply,.leave_word{float:left;font-size:14px;color:#4d4d4d;line-height:30px}
+.reply_s_box .leave_word_time{float:right;color:#808080;font-size:12px;line-height:30px}
+.reply_s_box .leave_word{text-indent:4em;font-size:12px;margin-bottom:10px}

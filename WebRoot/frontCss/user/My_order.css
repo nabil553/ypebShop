@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*统计栏*/
+	.list_line{width:600px; height: 1px;background-color: #d9d9d9;}
+	.statistics_box{ margin-bottom: 20px;}
+	.statistics{width:144px;text-align: center;font-size:14px; float:left;margin-left:60px;}
+	.statistics p{line-height:54px; color:#4c4c4c;}
+	.statistics span{ color:#ec1d23;line-height: 14px; margin-bottom:20px;}
+	/*订单*/
+	.center{border:1px solid #e6e6e6;width:600px; background-color:#eeeeee; border-radius:5px;margin-left:0px;}
+	.list img{float:left;margin:10px 0;}
+	.list p{ float: left; line-height: 92px; }
+	.list_p1{width:200px; margin-left:20px;font-size: 15px;color:#1c1412}
+	.list_p2{width:180px;text-align: center;margin: 15px 0px 0px 30px;font-size: 14px;color:#5c5050}
+	.list_p3{width:70px;text-align: center; margin: 15px 10px 0px 30px;font-size: 17px;color:#1c1412}
+	.list_p4{width:20px;text-align: center;margin: 15px 0px 0px -20px;font-size: 16px;color:red;}
+	
+	.list span img{float:left;margin:10px 0;}
+	.list span{ float: left;height:90px; font-size: 14px;color:#4d4d4d}
+	.list_sp1{width:80px;margin-left:10px;}
+	.list_sp2{width:300px;margin: 0px 0px;}
+	.list_sp2 span{width:280px;height:20px;margin: 30px 0px;}
+	.list_sp3{width:50px;text-align:center;line-height:90px;}
+	.list_sp4{width:20px;text-align: center;line-height:90px;margin: 0px 0px 0px -10px ;}
+	.list_sp5{width:60px;text-align: center;line-height:90px;margin: 0px 0px 0px 10px ;}
+	.list_sp6{width:50px;text-align: center;line-height:90px;margin: 0px 0px 0px -15px ;}
+/*交易明细_翻页按钮*/
+	.pagination_box{ margin-left:400px; margin-top: 45px;}
+	.pagination_box span{ display: block; width: 28px; line-height:28px; font-size: 16px;text-align: center;border: solid 1px #bfbfbf; float: left; margin-right: 10px}
+	.pagination_box p{line-height: 28px}
+	.box{float:left; margin-left: 47px}
+	
+.pageUl li{list-style:none;float:left;}
+.pageUl li a:hover{border:1px solid #e6e2e1;color:#ffffff;text-decoration:none;float:left;}
+.pageUl li a:visited{border:1px solid #e6e2e1;color:#3d8bbf;text-decoration:none;float:left;}
+.pageUl li a:link{border:1px solid #e6e2e1;color:#3d8bbf;text-decoration:none;float:left;}
+
+.item{width:600px;}
+.pageUl{margin:20px auto;text-aligin:center;float:right;}
+
+	
+	

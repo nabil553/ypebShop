@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+/*universal*/
+.clearfix{clear:both}
+*{font-family:"微软雅黑"}
+/*CSS eliminate*/
+body{margin:0;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-weight:normal}
+a{text-decoration:none}
+a:hover{color:#4c4c4c;}
+a:visited{color:#4c4c4c;}
+a:link{color:#4c4c4c;}
+img{display:block}
+ul,li{margin:0;padding:0;list-style:none;font-weight:normal}
+input{margin:0;border:none}
+/* listAnnouncement*/
+.nav_box{width:1150px;margin:0 auto 30px auto;}
+.nav h1{font-size:14px;color:#4c4c4c;float:left;line-height:30px;margin-right:6px;margin-top:6px;}
+.nav{width:103px;border-bottom:1px solid #d9d9d9;}
+.nav a{color:#4c4c4c}
+.nav a:hover{text-decoration:underline}
+
+.activity_box_list,.notice_list_list{float:left;}
+.box{width:900px;margin:0 auto;}
+.activity_box_list img{margin:0 60px 20px 0;width:220px;height:300px;}
+
+.integral_deal{width:296px;margin-right:60px}
+.category{border-bottom:1px solid #808080;width:600px}
+.category h1,.category h2,.category h3,.category h4{float:left;font-size:14px;color:#808080;line-height:40px;width:102px;text-align:center;}
+.category h1{margin-right:380px}
+
+.item{border-bottom:1px solid #d9d9d9;width:600px}
+.item a,.item h2,.item h3,.item h4{float:left;font-size:14px;color:#4d4d4d;line-height:40px;width:102px}
+.item a{padding-left:20px;width:330px}
+.item h2{width:0px;}
+.item a{margin-right:150px}
+.item a:hover{color:#ec1d23}
+.span{border:1px solid red;}
+
+.item1{width:600px}
+.item1 a,.item1 h2,.item1 h3,.item1 h4{float:left;font-size:14px;color:#4d4d4d;line-height:40px;width:102px}
+.item1 a{padding-left:20px;width:330px}
+.item1 h2{width:0px}
+.item1 a{margin-right:150px}
+.item1 a:hover{color:#ec1d23}
+.addBottomHei{height:200px;}
+
+/* dispAnnouncement */
+/*top_title*/
+.top_title{ border:1px solid #0F0; min-width:1000px;position:relative; height:200px; overflow:hidden;}
+.notice title{font-size:80px; font-family:宋体;text-align:center;letter-spacing:3px; }
+
+.s_classification{width:1150px;margin:6px auto 16px auto;}
+.s_classification h1{color:#4c4c4c;font-size:14px;float:left;margin-right:6px;line-height:30px}
+.boundary{border-bottom:1px solid #d9d9d9;float:left}
+
+.activity_box,.notice_detail{float:left}
+.box{width:1000px;margin:0 auto}
+.activity_box img{margin:10px 80px 20px -20px}
+
+.notice_detail{width:660px}
+.notice_detail h1{font-size:16px;line-height:40px;color:#4d4d4d;text-align:center}
+.notice_detail p{font-size:14px;color:#4d4d4d;text-indent:2em}
+.notice_detail h2,h3{font-size:14px;color:#4d4d4d}
+.notice_detail h3{margin-top:40px}
+.signature{width:100px;float:right;margin-top:30px}
+.signature h4{font-size:14px;color:#808080;text-align:center;line-height:24px}
+
+.pageUl li{list-style:none;float:left;width:25px;margin-left:3px;}
+.pageUl li span{margin-left:-8px;}

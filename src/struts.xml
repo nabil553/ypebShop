@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+	<constant name="struts.multipart.saveDir" value="/tmp" />
+
+	<constant name="struts.multipart.maxSize" value="107010960" />
+	<!-- *****************交易所系统***************** -->
+	<package name="trade" namespace="/" extends="struts-default,json-default">
+
+
+		<action name="frontTrade_*_*" class="com.ypeb.action.front.trade.{1}Action"
+			method="{2}">
+
+			<result name="diyUrl">${destURL}</result>
+		</action>
+
+
+
+		<action name="backTrade_*_*" class="com.ypeb.action.back.trade.{1}Action"
+			method="{2}">
+			<result name="diyUrl">${destUrl}</result>
+
+		</action>
+
+	</package>
+
+	<!-- *****************商城系统***************** -->
+	<package name="shopping" namespace="/"
+		extends="struts-default,json-default">
+
+		<!-- 定义全局Result -->
+		<global-results>
+			<result name="ajaxdone" type="json">
+				<param name="includeProperties">shopCarNum,msg,err,statusCode,message,navTabId,callbackType,forwardUrl</param>
+			</result>
+			<result name="nologin">backPage/nologin.jsp</result>
+			<!-- 当返回login视图名时，转入/login.jsp页面 -->
+			<result name="login">backPage/backLogin.jsp</result>
+		</global-results>
+
+		<action name="frontShopping_*_*" class="com.ypeb.action.front.shopping.{1}Action"
+			method="{2}">
+			<result name="nextAction" type="chain">${destUrl}</result>
+			<result name="diyUrl">${destUrl}</result>
+		</action>
+
+
+
+		<action name="backShopping_*_*" class="com.ypeb.action.back.shopping.{1}Action"
+			method="{2}">
+			<param name="fileSize">10</param>
+			<param name="savePath">${savePath}</param>
+			<result name="diyUrl">${destUrl}</result>
+
+		</action>
+
+	</package>
+
+	<package name="user" namespace="/" extends="struts-default,json-default">
+
+		<!-- 定义全局Result -->
+		<global-results>
+			<result name="ajaxdone" type="json">
+				<param name="includeProperties">shopCarNum,msg,err,statusCode,message,navTabId,callbackType,forwardUrl</param>
+			</result>
+			<result name="nologin">backPage/nologin.jsp</result>
+			<!-- 当返回login视图名时，转入/login.jsp页面 -->
+			<result name="login">backPage/backLogin.jsp</result>
+		</global-results>
+
+		<action name="frontUser_*_*" class="com.ypeb.action.front.user.{1}Action"
+			method="{2}">
+			<result name="nextAction" type="chain">${destUrl}</result>
+			<result name="diyUrl">${destUrl}</result>
+		</action>
+
+
+
+		<action name="backUser_*_*" class="com.ypeb.action.back.user.{1}Action"
+			method="{2}">
+			<param name="fileSize">10</param>
+			<param name="savePath">${savePath}</param>
+			<result name="diyUrl">${destUrl}</result>
+
+		</action>
+
+	</package>
+
+	<package name="manage" namespace="/" extends="struts-default,json-default">
+
+		<!-- 定义全局Result -->
+		<global-results>
+			<result name="ajaxdone" type="json">
+				<param name="includeProperties">shopCarNum,msg,err,statusCode,message,navTabId,callbackType,forwardUrl</param>
+			</result>
+			<result name="nologin">backPage/nologin.jsp</result>
+			<!-- 当返回login视图名时，转入/login.jsp页面 -->
+			<result name="login">backPage/backLogin.jsp</result>
+		</global-results>
+
+		<action name="backSuperLimit_*_*" class="com.ypeb.action.back.manage.superLimit.{1}Action"
+			method="{2}">
+			<result name="nextAction" type="chain">${destUrl}</result>
+			<result name="diyUrl">${destUrl}</result>
+		</action>
+		
+		<action name="backLogin_*_*" class="com.ypeb.action.back.{1}Action"
+			method="{2}">
+			<result name="nextAction" type="chain">${destUrl}</result>
+			<result name="diyUrl">${destUrl}</result>
+		</action>
+
+		<action name="backMessage_*_*" class="com.ypeb.action.back.manage.message.{1}Action"
+			method="{2}">
+			<result name="nextAction" type="chain">${destUrl}</result>
+			<result name="diyUrl">${destUrl}</result>
+		</action>
+
+
+		<action name="backSetting_*_*" class="com.ypeb.action.back.manage.setting.{1}Action"
+			method="{2}">
+			<param name="fileSize">10</param>
+			<param name="savePath">${savePath}</param>
+			<result name="diyUrl">${destUrl}</result>
+
+		</action>
+
+	</package>
+
+</struts>    

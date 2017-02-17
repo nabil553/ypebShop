@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.nav_box{width:1200px;margin:0 auto 20px auto}
+.nav h1{font-size:14px;color:#4c4c4c;float:left;line-height:30px;margin-right:6px;margin-top:6px;}
+.nav{width:151px;border-bottom:1px solid #d9d9d9}
+.nav a{color:#4c4c4c}
+.nav a:hover{text-decoration:underline}
+
+
+/*地址*/
+.site_box{width:1200px;margin:0 auto}
+.site{width:420px;border:1px solid red;height:100px;padding:6px 10px;position:relative;margin-right:20px;}
+.site h1{font-size:14px;line-height:25px}
+.site input{position:absolute;bottom:0px;right:0px;margin:5px;}
+.site_box .site,.add_site{float:left}
+.add_site{width:120px;height:50px;background-color:#fff;border:1px solid #d9d9d9;color:#ec1d23;margin:16px 0 0 30px}
+.manage_site{float:right;background-color:#fff;line-height:82px;margin-right:20px;color:#808080}
+
+
+/*商品*/
+.shoppingcart_box{width:1200px;margin:30px auto 16px auto}
+.shoppingcart_box input,h1,h3{float:left;font-size:14px;color:#808080;text-align:center}
+.shoppingcart_box .assist_box{float:right}
+.shoppingcart_box .assist_box h2{float:left}
+.shoppingcart_box h1{width:70px;text-align:center}
+.shoppingcart_box h2{font-size:14px;width:97px;color:#808080;text-align:center}
+
+.sc_commodity{width:1200px;margin:0 auto}
+.sc_commodity .boundary{width:1200px;height:1px;background-color:#d9d9d9}
+.sc_commodity .boundary{width:1200px;height:1px;background-color:#d9d9d9}
+.sc_commodity input,img,h1{float:left}
+.sc_commodity .assist_box{float:right}
+.sc_commodity .assist_box h2,.quantity{float:right}
+.sc_commodity .check_box{margin:40px 20px 0 20px}
+.sc_commodity img{margin:10px 20px 10px 0}
+.sc_commodity h1{line-height:92px;color:#333}
+.sc_commodity h2{line-height:92px;color:#333;font-size:14px;width:98px;text-align:center}
+
+
+/*支付*/
+.check_out_box{width:1200px;margin:10px auto 600px auto}
+.check_out_box .assist_box{float:right}
+.check_out_box h1{font-size:14px;color:#333;line-height:40px;margin-right:20px}
+.check_out_box input{width:80px;height:40px;background-color:#ec1d23;font-size:18px;color:#fff;border-radius:4px;margin-right:20px}
+.payImg{width:72px;height:72px;}
+.myaddress{color:#767676;margin-bottom:7px;}
+.site p{color:#525150; margin:5px;font-size:14px;}
+.site p span{color:#3a3737; margin-right:5px;font-size:15px;font-weight:500;}
+
+
